@@ -49,7 +49,7 @@ public class ChatTalk extends Application {
 		hostname_label.setLayoutY(150);
 		root.getChildren().add(hostname_label);
 
-		hostname_field = new TextField();
+		hostname_field = new TextField("localhost");
 		hostname_field.setLayoutX(120);
 		hostname_field.setLayoutY(147);
 		root.getChildren().add(hostname_field);
@@ -59,7 +59,7 @@ public class ChatTalk extends Application {
 		port_label.setLayoutY(200);
 		root.getChildren().add(port_label);
 
-		port_field = new TextField("");
+		port_field = new TextField();
 		port_field.setLayoutX(120);
 		port_field.setLayoutY(197);
 		root.getChildren().add(port_field);
